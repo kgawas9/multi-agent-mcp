@@ -1,0 +1,13 @@
+[project]
+name = "mcp-agent-clean"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "groq>=1.1.2",
+    "mcp==1.26.0",
+    "pydantic-ai-slim>=1.78.0",
+    "python-decouple>=3.8",
+    "requests>=2.33.1",
+]
